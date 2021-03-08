@@ -67,18 +67,45 @@
 }
 
 .open-chat__header span {
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .open-post {
   display: flex;
+  padding-left: 20px;
+}
+
+.open-post__title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.open-post__hashtags {
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.open-post__members {
+  display: flex;
+  align-items: center;
+  margin-top: 7px;
+  font-weight: 540;
+}
+
+.open-post__members img {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 5px;
 }
 
 .open-post__member-count {
-  display: flex;
+  opacity: 0.7;
+  font-size: 14px;
 }
 
-.open-post__image {
-  width: 5px;
-  height: 5px;
+.open-post__member-status {
+  margin-left: 5px;
+  color: rgba(247, 21, 198, 0.877);
+  font-weight: 580;
 }
