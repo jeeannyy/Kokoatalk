@@ -5,10 +5,15 @@
   padding: 15px 0;
   font-size: 18px;
   margin-bottom: 15px;
+  margin-top: -10px;
 }
 
 #friends-display-link i {
   color: rgba(0, 0, 0, 0.3);
+}
+
+.screen-header__title {
+  font-size: 30px;
 }
 
 .friends-screen {
