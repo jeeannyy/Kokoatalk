@@ -57,12 +57,16 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
+.open-chat{
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .open-chat__header {
   display: flex;
   justify-content: space-between;
   opacity: 0.8;
   margin-bottom: 25px;
-  padding-left: 20px;
+  
   align-content: center;
 }
 
@@ -72,7 +76,9 @@
 
 .open-post {
   display: flex;
-  padding-left: 20px;
+  justify-content: space-between;
+  align-items: center;
+
 }
 
 .open-post__title {
@@ -109,3 +115,31 @@
   color: rgba(247, 21, 198, 0.877);
   font-weight: 580;
 }
+
+.open-post__photo {
+position: relative;
+}
+
+.open-post__photo img{
+width: 120px;
+height: 120px;
+border-radius: 10px;;
+}
+
+.open-post__heart-count{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  font-size: 13px;
+}
+
+.open-post__heart-count span{
+  margin-left: 3px;
+}
+
