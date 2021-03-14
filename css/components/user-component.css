@@ -26,6 +26,7 @@
 .user-component_text {
   display: flex;
   flex-direction: column;
+  margin-left: 15px;
 }
 
 .user-component__title {
