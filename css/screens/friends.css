@@ -12,10 +12,6 @@
   color: rgba(0, 0, 0, 0.3);
 }
 
-.screen-header__title {
-  font-size: 30px;
-}
-
 .friends-screen {
   padding: 0px var(--horizontal-space);
 }

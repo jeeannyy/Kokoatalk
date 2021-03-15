@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css"/>
-    <title>My profile and friends lists</title>
+    <title>More</title>
 </head>
 <body>
     <div class="status-bar">
@@ -27,35 +27,42 @@
         </div>
     </div>
 
-    <header class="screen-header">
-        <h1 class="screen-header__title">Friends</h1>
-        <div class="screen-header__icons">
-            <span><i class="fas fa-search fa-lg"></i> </span>
-            <span><i class="fas fa-comment-dots fa-lg"></i></span>
-            <span><i class="fas fa-music fa-lg"></i></span>
-            <span><i class="fas fa-cog fa-lg"></i></span>
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="more.html">
+            <i class="fas fa-angle-left fa-2x"></i></a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Setting</h1>
+        </div>
+        <div class="alt-header__column">
+            <i class="fas fa-search fa-lg"></i>
         </div>
     </header>
 
-<main class="main-screen">
-    <a href="chat.html">
-    <div class="user-component">
-        <div class="user-component__column">
-            <img src="pictures/qq.jpg" class="user-component__avatar" alt=""/>
-            <div class="user-component_text">
-                <h4 class="user-component__title">Jeeann</h4>
-                <h6 class="user-component__subtitle">Please check My Kokoa Account info</h6>
+<main class="main-screen setting-screen">
+   <ul class="settings-list">
+       <li class="settings__setting">
+           <div class="settings__setting-column">
+               <i class="fas fa-bullhorn"></i><span>Notices</span>
             </div>
-        </div>
+       </li>
+       <li class="settings__setting">
+        <div class="settings__setting-column">
+            <i class="fas fa-flask"></i><span>Kokoa Lab</span>
+         </div>
+    </li>
+    <li class="settings__setting">
+        <div class="settings__setting-column">
+            <i class="fas fa-info-circle"></i><span>Version</span>
+         </div>
+         <div class="settings__setting-column">Latest Version</div>
+    </li>
 
-        <div class="user-component__column">
-            <div class="user-component__time">12:00</div>
-            <div class="user-component__number">5</div>
-        </div>
+    
+   </ul>
 
-
-    </div>
-</a>
+        
 </main>
 
     <nav class="nav">
@@ -68,7 +75,7 @@
            <li class="nav__btn">
                <a class="nav__link" href="chats.html">
                 <span class="nav__notification">10</span>
-                <i class="fas fa-comments fa-2x"></i>
+                <i class="far fa-comments fa-2x"></i>
                 </a>
             </li>
            <li class="nav__btn">

@@ -9,7 +9,8 @@
 }
 
 .user-component__column {
-  margin-left: 23px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .friends-screen__channel-header-title {
@@ -20,7 +21,7 @@
   width: 70px;
   height: 70px;
   border-radius: 30px;
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 
 .user-component_text {
