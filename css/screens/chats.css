@@ -1,0 +1,15 @@
+.screen-header__title {
+
+    margin-bottom: 0;
+
+}
+
+.screen-header__icons {
+    display: flex;
+    justify-content: flex-end;
+} 
+
+.main-screen {
+    margin-left: 20px;
+    margin-right: 20px;
+}
