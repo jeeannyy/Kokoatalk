@@ -6,14 +6,17 @@
   .icon-row_icon {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    width: 33%;
   }
   
   .icon-row_icon i {
+    display: flex;
     font-size: 35px;
   }
   
   .icon-row_icon span {
     margin-top: 18px;
+    text-align: center;
   }

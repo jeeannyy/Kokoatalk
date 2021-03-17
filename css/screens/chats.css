@@ -13,3 +13,8 @@
     margin-left: 20px;
     margin-right: 20px;
 }
+
+.screen-header{
+    padding-right: 0;
+    padding-top: 40px;
+}
