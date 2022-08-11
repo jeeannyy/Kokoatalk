@@ -1,3 +1,5 @@
-# kokoa-clone-2021
+# Kokoatalk
 
-kokoa-clone-2021 by Jeeann
+Cloned Korean messenger application, Kakaotalk.
+
+https://kokoatalk-jeeann.netlify.app/

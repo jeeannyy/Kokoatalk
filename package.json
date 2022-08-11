@@ -1,7 +1,7 @@
 {
   "name": "kokoatalk",
   "version": "1.0.0",
-  "description": "kokoa-clone-2021 by Jeeann",
+  "description": "Cloned messenger application, Kakaotalk",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
